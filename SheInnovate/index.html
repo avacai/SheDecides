@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Feminine products selection</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Aclonica"/>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="website.js">
+    </script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <img src="https://i.postimg.cc/xTW4mdjj/20230204155729.png" alt="logo" id="logo">
+                </li>
+                <li>
+                    <a href="#top">SheDecides</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="cover-image">
+            <h1>About</h1>
+            <p>On any given day, over 300 million people around the world are having their period. Yet the high costs of period products continue to be a problem for many. Those costs are not just financial (though period equity is a serious problem that is largely unaddressed in the US); there are also environmental, health, and safety costs to consider. She Decide helps customers find the right menstrual product for your needs based on what's important to you, including product types, absorbency and overall protection.</p>
+    </section>
+
+    <main>
+        <form>
+            <h2>Product Guidance Survey</h2>
+            <div class="question">
+                <div>
+                    <label for="name" class="Qheader">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+            </div>
+            <div class="question">
+                <div>
+                    <label for="age" class="Qheader">Age:</label>
+                    <input type="text" id="age" name="age" required>
+                </div>
+            </div>
+
+            <ol>
+                <li>
+                    <div class="question">
+                        <div id="Q1">
+                            <label for="Q1" class="Qheader">1. Are you comfortable with embedded/ inserted products? </label><br>
+        
+                            <input type="radio" id="Yes1" name="Q1" value="1A" required>
+                            <label for="Yes">Yes (e.g. tampon/ menstrual cup)</label> <br>
+                            <img src="https://www.fda.gov/files/tampons_single_use_1600x900_0.png" alt="Yes1">
+                            <img src="https://feelunique.com/cdn-cgi/image/quality=75,format=auto,metadata=none,dpr=1/img/products/111851/saalt_menstrual_cup_small_1573551991.jpg" alt="Yes1">
+                            <br>
+        
+                            <input type="radio" id="No1" name="Q1" value="1B">
+                            <label for="No">No (e.g. pads/ menstrual)</label><br>
+                            <img src="https://images-prod.dazeddigital.com/900/azure/dazed-prod/1250/4/1254766.jpg" alt="Yes1">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS36_4t2LrkLI2synxXfUDkwc6QYBe97_Cc1Q&usqp=CAU
+                            " alt="Yes1"><br>
+                            
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="question">
+                        <div id="Q2">
+                            <label for="Q2" class="Qheader">2. Do you have a regular period?(fixed period cycle)</label><br>
+                            <input type="radio" id="yes" name="Q2" value="2A" required>
+                            <label for="yes">Yes</label>
+                            <input type="radio" id="no" name="Q2" value="2B">
+                            <label for="no">No</label>
+                            <br>
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="question">
+                        <div id="Q3">
+                            <label for="Q3" class="Qheader">3. Do you need the menstrual products to specifically perform in the circumstances below?
+                            </label> <br>
+                            <input type="radio" id="In water" name="Q3" value="3A" required>
+                            <label for="In water">In water(e.g. swimming, spa, hot tub)</label> <br>
+                            <input type="radio" id="Strenuous exercise" name="Q3" value="3B">
+                            <label for="Strenuous exercise">Strenuous exercise</label> <br>
+                            <input type="radio" id="Night time" name="Q3" value="3C">
+                            <label for="Night time">Night time</label> <br>
+                            <input type="radio" id="na" name="Q3" value="3D">
+                            <label for="na">None of the above</label> <br>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="question">
+                        <div id="Q4">
+                            <label for="Q4" class="Qheader">4. Are you currently enduring any of the following situations?</label> <br>
+                            <input type="radio" id="skin" name="Q4" value="4A" required>
+                            <label for="skin">hypersensitive skin</label> <br>
+                            <input type="radio" id="inf" name="Q4" value="4B">
+                            <label for="inf">Gynecological inflammation/ infection</label> <br>
+                            <input type="radio" id="na" name="Q4" value="4C">
+                            <label for="na">None of the above</label> <br>
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="question">
+                        <div id="Q5">
+                            <label for="Q5" class="Qheader">5. How do you expect your menstrual flow? </label> <br>
+                            <input type="radio" id="light" name="Q5" value="5A" required>
+                            <label for="light">light</label> <br>
+                            <input type="radio" id="regular" name="Q5" value="5B">
+                            <label for="regular">regular</label> <br>
+                            <input type="radio" id="heavy" name="Q5" value="5C">
+                            <label for="heavy">heavy</label> <br>
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="question">
+                        <div id="Q6">
+                            <label for="Q6" class="Qheader">6. Have you ever been pregnant?</label> <br>
+                            <a href="#Q6" name="Q6" class="Q6" id="Go7">yes</a>
+                            <a href="#Q7" name="Q6" class="Q6" id="Go8">no</a>
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="question">
+                        <div id="Q7">
+                            <label for="Q7" class="Qheader">7. Do you have doctor's permission to use tampons after giving a birth or abortion?</label> <br>
+                            <input type="radio" id="option1" name="Q7" value="7A">
+                            <label for="option1">Yes, the doctor gives me the go-ahead.</label> <br>
+                            <input type="radio" id="option2" name="Q7" value="7B">
+                            <label for="option2">No,  I can not use tampons or cups.</label> <br>
+                            <input type="radio" id="option3" name="Q7" value="7C">
+                            <label for="heavy">No, I didn't ask about it.</label> <br>
+                        </div>
+                    </div> 
+                </li>
+
+                <li>
+                    <div class="question">
+                        <div id="Q8">
+                            <label for="Q8" class="Qheader">8. Are you taking any kind of contraception or birth control?</label> <br>
+                            <input type="radio" id="vr" name="Q8" value="8A" required>
+                            <label for="vr">Vaginal ring </label> <br>
+                            <input type="radio" id="iud" name="Q8" value="8B">
+                            <label for="iud">IUS/ IUD</label> <br>
+                            <input type="radio" id="no" name="Q8" value="8C">
+                            <label for="no">None of the above</label> <br>
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="question">
+                        <div id="Q9">
+                            <label for="budget" class="Qheader">9. What is your budget for your monthly purchase?</label> <br>
+                            <input type="number" id="budget" name="budget" required>
+                        </div>
+                    </div>
+                </li>                
+            </ol>
+            
+            <button type="button" class="myButton" onclick="getFormValue()">Submit </button>
+            <br>
+
+        </form>
+        <div class="result">
+            <div id="info"></div>
+        <br>
+        <div id="recommendation"></div>
+        <br>
+        <div id="suggestion"></div>
+        </div>
+    </main>
+    <footer>
+        <p>Copyright &copy; 2023 Product Guidance Website</p>
+    </footer>
+</body>
+</html>

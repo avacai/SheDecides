@@ -1,0 +1,199 @@
+
+ol{
+  padding: 0;
+  list-style-type: none;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #ffc8dd;
+}
+
+header {
+  background-color: #cdb4db;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  height: 54px;
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+header nav ul li {
+  margin-right: 20px;
+}
+header nav ul li #logo{
+  height: 50px;
+  width: 50px;
+}
+
+header nav ul a
+{
+  text-decoration: none;
+  line-height: 54px;
+
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 23px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  color: #FFFFFF;
+  font-weight: 700;
+  font-style: normal;
+  font-variant: normal;
+  }
+
+  #cover-image {
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    }
+    section {
+    min-height: 100vh;
+    display: flex;
+    text-align: center;
+    font-size: 28px;
+    }
+    section h1 {
+      margin-left: 80px;
+      margin-right: 80px;
+    font-size: 80px;
+    letter-spacing: 4px;
+    color: #000;
+    }
+    section p{
+      margin-top: 120px;
+      margin-right: 80px;
+    }
+
+  main {
+  margin: 100px auto;
+  width: 80%;
+  }
+  
+  form {
+  background-color: #f2f2f2;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  form h2 {
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 50px;
+  text-align: center;
+  margin-bottom: 30px;
+  }
+  
+  form .question {
+  display: flex;
+  margin-bottom: 20px;
+  }
+  
+  form .question img {
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
+  }
+  
+  form label,
+  form input[type="text"],
+  form select,
+  form textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  }
+  
+  form input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  float: right;
+  }
+  
+  footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  }
+
+
+.myButton {
+	box-shadow:inset 0px 0px 15px 3px #23395e;
+	background:linear-gradient(to bottom, #2e466e 5%, #415989 100%);
+	background-color:#2e466e;
+	border-radius:17px;
+	border:1px solid #1f2f47;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding:6px 13px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #263666;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #415989 5%, #2e466e 100%);
+	background-color:#415989;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.Q6 {
+	background:linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+	background-color:#ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#666666;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+}
+.Q6:hover {
+	background:linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
+	background-color:#f6f6f6;
+}
+.Q6:active {
+	position:relative;
+	top:1px;
+}
+
+.Qheader{
+  font-size: 25px;
+}
+
+.result{
+  background-color: #f2f2f2;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  font-size: 25px;
+}
